@@ -1,0 +1,13 @@
+Technology:
+
+This project is based on JavaEE(servlet, jsp, etc.)
+The database structure in this program is simple, so there is no need to use Hibernate or Spring to manage the datasets. So I simply connected MySQL with this project.
+MVC structure is used in this project. But again, since the structure is not complex, I didn’t separate the interface and implemented class, instead, I set DAOs and Servlets as Classes directly.
+
+Database:
+1.	Used the number of products of each three fruits in some months to draw a bar chart.
+2.	This dataset contained the id and prices of particular dates of items.
+3.	Selected three kinds of items and stored the selling of them in some months and find out which item sold best in total.
+4.	Store the fruit consumption of 10 groups of people in 2 areas.
+5.	The consumption of banana and apple in 10 months.
+6.	The total sale of 2 items(each) in a year(each month separately.)
